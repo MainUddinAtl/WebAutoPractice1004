@@ -18,6 +18,8 @@ public class GoogleFooter {
 		//String privacyTxt = driver.findElement(By.xpath("//*[@id=\\\"yDmH0d\\\"]/c-wiz/div/div/div[2]/div[3]/c-wiz/div[1]/div/p[1]")).getText();
 		//Test-1: open google and then click on Privacy link
 				//driver.get("https:www.google.com");
+		
+		System.out.println(" It's Mosarrof");
 		System.out.println(driver.findElement(By.xpath("//*[@id='yDmH0d']/c-wiz/div/div/div[2]/div[3]/c-wiz/div[1]/div/p[1]")).getText());
 	}
 
