@@ -16,7 +16,8 @@ public class GoogleFooter {
 		driver.findElement(By.xpath("//*[@id=\'fsr\']/a[1]")).click(); // find and click on privacy link
 		//Verify clicking on the privacy link and verify the info is exist
 		//String privacyTxt = driver.findElement(By.xpath("//*[@id=\\\"yDmH0d\\\"]/c-wiz/div/div/div[2]/div[3]/c-wiz/div[1]/div/p[1]")).getText();
-		
+		//Test-1: open google and then click on Privacy link
+				//driver.get("https:www.google.com");
 		System.out.println(driver.findElement(By.xpath("//*[@id='yDmH0d']/c-wiz/div/div/div[2]/div[3]/c-wiz/div[1]/div/p[1]")).getText());
 	}
 
