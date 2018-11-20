@@ -106,6 +106,7 @@ public class GoogleFooterLinks {
 			
 		}else{
 			System.out.println("The test is failed");
+			System.out.println();
 			
 		}
 		}
